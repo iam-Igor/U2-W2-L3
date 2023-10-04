@@ -252,4 +252,5 @@ header .text-cont p {
 }
 .button-cont button:hover {
   border: 2px solid white;
+  transform: rotate(45deg);
 }/*# sourceMappingURL=style.css.map */
