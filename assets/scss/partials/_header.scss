@@ -19,12 +19,14 @@ nav {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-between;
+    font-size: $smallFont;
   }
 
 
 
   header {display: flex;
     justify-content: center;
+    @include slideAnimation;
    
     
     
