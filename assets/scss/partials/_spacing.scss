@@ -1,0 +1,78 @@
+
+$padding-map :(
+
+sm: 1em,
+norm: 1.5em,
+md:2em,
+lg: 2.5em,
+xl: 3.5em,
+xxl: 5em,
+
+);
+
+
+$margin-map:(
+
+sm: 1em,
+norm: 1.5em,
+md:2em,
+lg: 2.5em,
+xl: 3.5em,
+xxl: 5em,
+
+
+);
+
+@each $i, $value in $padding-map {
+
+    .paddingTop-#{$i} {
+    
+        padding: $value;
+    }
+    
+    };
+
+@each $i, $value in $padding-map {
+
+.padding-#{$i} {
+
+    padding: $value;
+}
+
+};
+
+@each $i, $value in $padding-map {
+
+    .paddingTop-#{$i} {
+    
+        padding: $value;
+    }
+    
+    };
+
+@each $i, $value in $margin-map {
+
+    .margin-#{$i} {
+    
+        margin: $value;
+    }
+}
+
+
+@each $i, $value in $margin-map {
+
+    .marginTop-#{$i} {
+    
+        margin: $value;
+    }
+}
+
+@each $i, $value in $margin-map {
+
+    .marginLeft-#{$i} {
+    
+        margin: $value;
+    }
+}
+
+

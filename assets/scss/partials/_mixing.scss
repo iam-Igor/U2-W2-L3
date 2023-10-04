@@ -1,0 +1,24 @@
+@mixin floating {
+
+border-radius: 20px;
+box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+
+
+}
+
+
+@mixin titleBig ($property, $value){
+    font-#{$property}: $value;
+}
+
+
+@mixin grid ()
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+
+    }
+   
+  
+  
